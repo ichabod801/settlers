@@ -38,7 +38,7 @@ For example, the following code creates a layout following the Catan 3D layout r
 ```python
 board = CatanMap()
 valid = (no_6_8(), no_num_pairs())
-board.layout(num = 'shuffle', validate = vald)
+board.layout(num = 'shuffle', validate = valid)
 print(board)
 ```
 
